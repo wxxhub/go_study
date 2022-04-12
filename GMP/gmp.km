@@ -1,0 +1,709 @@
+{
+    "root": {
+        "data": {
+            "id": "cj5u17l83gg0",
+            "created": 1649519984433,
+            "text": "GMP",
+            "progress": null,
+            "priority": null,
+            "font-size": 48
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cj5u1uy7ceo0",
+                    "created": 1649520035284,
+                    "text": "GMP由来",
+                    "font-size": 32
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj5u1zun0qw0",
+                            "created": 1649520045953,
+                            "text": "单线程时代",
+                            "expandState": "expand",
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj5u4du54g00",
+                                    "created": 1649520233126,
+                                    "text": "一次只能执行一个任务",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj5u4pcrv480",
+                                    "created": 1649520258197,
+                                    "text": "进程阻塞",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj5u28ieag80",
+                            "created": 1649520064803,
+                            "text": "多线程时代",
+                            "expandState": "expand",
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj5u4vpxq3k0",
+                                    "created": 1649520272054,
+                                    "text": "设计复杂",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj5u598t1wg0",
+                                            "created": 1649520301493,
+                                            "text": "进程、线程上下文切换",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj5u4yv0b000",
+                                    "created": 1649520278891,
+                                    "text": "资源消耗",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj5u5gykh8o0",
+                                            "created": 1649520318288,
+                                            "text": "同步、锁、资源冲突",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj5u2ec6vpc0",
+                            "created": 1649520077489,
+                            "text": "协程时代",
+                            "expandState": "expand",
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj5u2kzvep40",
+                                    "created": 1649520091982,
+                                    "text": "问题",
+                                    "priority": null,
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj5u5xh4f1s0",
+                                            "created": 1649520354238,
+                                            "text": "一个线程对应多个协程",
+                                            "font-size": 24
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj5u6vj4mp40",
+                                                    "created": 1649520428370,
+                                                    "text": "只能用一个核",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj5u72bg4h40",
+                                                    "created": 1649520443143,
+                                                    "text": "阻塞",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj5u77cm2bk0",
+                                            "created": 1649520454098,
+                                            "text": "多个线程对应多个协程",
+                                            "font-size": 24
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj5u7h6h95c0",
+                                                    "created": 1649520475495,
+                                                    "text": "能够使用多核优势",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj5u7ws6xk00",
+                                                    "created": 1649520509459,
+                                                    "text": "依赖于调度器算法",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj5u2nm46cw0",
+                                    "created": 1649520097680,
+                                    "text": "调度器优化",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj5u8wssmu00",
+                                            "created": 1649520587860,
+                                            "text": "Gorountine",
+                                            "font-size": 24
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj5u95dgw6w0",
+                                                    "created": 1649520606524,
+                                                    "text": "内存占用小 几KB 可大量开辟",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj5u9i467a00",
+                                                    "created": 1649520634260,
+                                                    "text": "灵活调度 切换成本低",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cj5ua5i1q940",
+                    "created": 1649520685165,
+                    "text": "早期GMP",
+                    "font-size": 32
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj5uacwfli80",
+                            "created": 1649520701273,
+                            "text": "全局轮询调度协程",
+                            "font-size": 24
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cj5uateligg0",
+                            "created": 1649520737199,
+                            "text": "弊端",
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj5uav1ttsw0",
+                                    "created": 1649520740781,
+                                    "text": "创建、销毁、调度需要给M加锁",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj5ub8bxiu00",
+                                    "created": 1649520769690,
+                                    "text": "M转移G会有延迟和额外系统开销",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj5uf7so0a80",
+                                    "created": 1649521081982,
+                                    "text": "CPU在M之间切换导致频繁的线程阻塞，增加了系统开销",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cj5ubxg0g9k0",
+                    "created": 1649520824356,
+                    "text": "GMP设计思想",
+                    "font-size": 32
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj5ui19s0kw0",
+                            "created": 1649521302871,
+                            "text": "GPM模型简介",
+                            "priority": 1,
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj6b1t79mn40",
+                                    "created": 1649567990347,
+                                    "text": "GMP",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6b5atkk0o0",
+                                            "created": 1649568263794,
+                                            "text": "G:gorotine 协程",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj6b5ggrry00",
+                                            "created": 1649568276081,
+                                            "text": "P:processor  调度器",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj6b5rexn280",
+                                            "created": 1649568299914,
+                                            "text": "M:thread 内核线程",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6b5wshzko0",
+                                    "created": 1649568311618,
+                                    "text": "G全局队列",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6b60lxl680",
+                                            "created": 1649568319928,
+                                            "text": "存放全局等待的G",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6b69g03so0",
+                                    "created": 1649568339161,
+                                    "text": "P的本地G队列",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6b6f5x8f40",
+                                            "created": 1649568351612,
+                                            "text": "存放当前P等待执行的G",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj6b6m7r8d40",
+                                            "created": 1649568366960,
+                                            "text": "数量限制  256个（uint8）",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj6b6yz4ibs0",
+                                            "created": 1649568394736,
+                                            "text": "优先放到P的本地队列，如果满了，则放到全局队列",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6b7gu70bc0",
+                                    "created": 1649568433620,
+                                    "text": "P列表（P的集合）",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6b8gjyprc0",
+                                            "created": 1649568511366,
+                                            "text": "程序启动时创建",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj6b8qhtoj40",
+                                            "created": 1649568533004,
+                                            "text": "最多有GOMAXPROCS个，（可配），默认为CPU核数",
+                                            "font-size": 24
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj6bad82few0",
+                                                    "created": 1649568660845,
+                                                    "text": "环境变量$GGOMAXPROCS",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj6bakekk8w0",
+                                                    "created": 1649568676475,
+                                                    "text": "程序中设置 runtime.GOMAXPROCS()",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6b996ytaw0",
+                                    "created": 1649568573707,
+                                    "text": "M列表",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6b9dck59k0",
+                                            "created": 1649568582752,
+                                            "text": "当前操作系统分配到当前Go程序的内核线程数",
+                                            "font-size": 24
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj6bb7utffk0",
+                                                    "created": 1649568727524,
+                                                    "text": "Go语言本身最大M限定为10000",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj6bbnudvc80",
+                                                    "created": 1649568762326,
+                                                    "text": "runtime/debug包中的SetMaxThreads可设置数量",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj6bc5vk28g0",
+                                                    "created": 1649568801579,
+                                                    "text": "有M阻塞时，会创建新的M",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj6bcldpah40",
+                                                    "created": 1649568835328,
+                                                    "text": "如果M有空闲，会休眠或回收销毁",
+                                                    "font-size": 24
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj5ui8d2dnc0",
+                            "created": 1649521318308,
+                            "text": "调度器的设计策略",
+                            "priority": 2,
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj6bd7lxxvs0",
+                                    "created": 1649568883715,
+                                    "text": "复用线程",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6bje50ky80",
+                                            "created": 1649569368114,
+                                            "text": "避免线程的重复创建销毁",
+                                            "font-size": 24
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj6bjnbs3sw0",
+                                                    "created": 1649569388114,
+                                                    "text": "work stealing机制",
+                                                    "font-size": 24
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cj6bju4q7y80",
+                                                            "created": 1649569402925,
+                                                            "text": "当本地G队列没有时，会尝试从其他G队列获取，获取失败就会从全局队列获取（全局队列需要加锁）",
+                                                            "font-size": 24
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj6bkkil0ww0",
+                                                    "created": 1649569460360,
+                                                    "text": "hand off机制",
+                                                    "font-size": 24
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cj6bkp37sjs0",
+                                                            "created": 1649569470314,
+                                                            "text": "当M因为系统调用阻塞时，M释放绑定的P，将P转移到其他空闲的M上执行",
+                                                            "font-size": 24
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6bm8ic0u80",
+                                    "created": 1649569590951,
+                                    "text": "利用并行",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6bmcz3eg00",
+                                            "created": 1649569600672,
+                                            "text": "最多有GOMAXPROCS个P分布到多个CPU上同时运行",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6bn3gl2q80",
+                                    "created": 1649569658326,
+                                    "text": "抢占",
+                                    "font-size": 24
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj6bncxigvk0",
+                                            "created": 1649569678940,
+                                            "text": "coroutine 中要等待一个协程主动让出CPU才会执行下一个协程",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj6bnt1jsoo0",
+                                            "created": 1649569714013,
+                                            "text": "goroutine最多占用cpu10ms，防止其他goroutine被饿死",
+                                            "font-size": 24
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj5uifd686g0",
+                            "created": 1649521333552,
+                            "text": "\"go func()\"经历了什么",
+                            "priority": 3,
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj6c0lvo3og0",
+                                    "created": 1649570717154,
+                                    "text": "创建goroutine",
+                                    "priority": 1,
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6c0vpa2tk0",
+                                    "created": 1649570738536,
+                                    "text": "新建的G会优先放到当前P的本地队列，如果满了则放到全局G队列",
+                                    "priority": 2,
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6c2a4kugg0",
+                                    "created": 1649570848300,
+                                    "text": "G运行在M中",
+                                    "priority": 3,
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6c2r3jrj40",
+                                    "created": 1649570885243,
+                                    "text": "M执行G是一个循环机制；",
+                                    "priority": 4,
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6civror5k0",
+                                    "created": 1649572149236,
+                                    "text": "当一个G阻塞时，M会阻塞，当前P会摘除阻塞的M，然后创建一个新的M或者使用空闲的M。",
+                                    "priority": 5,
+                                    "font-size": 24
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj5uiptd6680",
+                            "created": 1649521356299,
+                            "text": "调度器生命周期",
+                            "priority": 4,
+                            "font-size": 24
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj6cmegucfk0",
+                                    "created": 1649572425032,
+                                    "text": "M0",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj6cmk9pmeo0",
+                                    "created": 1649572437661,
+                                    "text": "G0",
+                                    "font-size": 24
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cj5uc21du000",
+                    "created": 1649520834356,
+                    "text": "GMP调度场景",
+                    "font-size": 32
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fish",
+    "version": "1.4.43"
+}
