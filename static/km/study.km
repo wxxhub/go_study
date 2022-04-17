@@ -1,0 +1,268 @@
+{
+    "root": {
+        "data": {
+            "id": "cjc6dc3sx6o0",
+            "created": 1650164147693,
+            "text": "Go语言学习路线"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cjc6vkt8ld40",
+                    "created": 1650165577200,
+                    "text": "Go基础",
+                    "background": "#ffc000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc73pcnmls0",
+                            "created": 1650166213995,
+                            "text": "变量、常量、类型、函数、包等"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc74iph6d40",
+                            "created": 1650166277897,
+                            "text": "数组、切片、map"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc74ps5dh40",
+                            "created": 1650166293296,
+                            "text": "指针、结构、方法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc74w3mz2o0",
+                            "created": 1650166307051,
+                            "text": "interface"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjc6vt73wy80",
+                    "created": 1650165595453,
+                    "text": "Go模组",
+                    "background": "#ffc000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc760ansbc0",
+                            "created": 1650166394547,
+                            "text": "go mod"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjc6xo9mb000",
+                    "created": 1650165741449,
+                    "text": "网页框架",
+                    "background": "#ffc000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc76gaai280",
+                            "created": 1650166429353,
+                            "text": "Echo"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc76jcer7c0",
+                            "created": 1650166436012,
+                            "text": "Beego"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc76m67t400",
+                            "created": 1650166442167,
+                            "text": "Gin"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc76o60ng80",
+                            "created": 1650166446509,
+                            "text": "Revel"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc76r21uvs0",
+                            "created": 1650166452799,
+                            "text": "Chi"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjc6zxti95s0",
+                    "created": 1650165918971,
+                    "text": "微服务",
+                    "background": "#ffc000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc781dqe5s0",
+                            "created": 1650166553638,
+                            "text": "框架"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjc784qad8w0",
+                                    "created": 1650166560927,
+                                    "text": "micro"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cjc788jmud40",
+                            "created": 1650166569232,
+                            "text": "RPC"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjc78bbijfk0",
+                                    "created": 1650166575271,
+                                    "text": "grpc"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjc6z688hfs0",
+                    "created": 1650165858912,
+                    "text": "日志框架",
+                    "background": "#ffc000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc7a6qw8qo0",
+                            "created": 1650166722046,
+                            "text": "Logrous"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc7a98hczc0",
+                            "created": 1650166727463,
+                            "text": "ZeroLog"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc7ac9l64w0",
+                            "created": 1650166734060,
+                            "text": "Zap"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjc8c06pfvk0",
+                    "created": 1650169685603,
+                    "text": "实时通信"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc8c4upndk0",
+                            "created": 1650169695761,
+                            "text": "Melody"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc8c92oqjc0",
+                            "created": 1650169704951,
+                            "text": "Centrifugo"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjc70niml8g0",
+                    "created": 1650165974910,
+                    "text": "Go模式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cjc6xjrmqtc0",
+                    "created": 1650165731655,
+                    "text": "开发工具"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cjc9afpj6kw0",
+                    "created": 1650172383774,
+                    "text": "库"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjc9ajeocnc0",
+                            "created": 1650172391825,
+                            "text": "Validator"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cjc9an6nqag0",
+                            "created": 1650172400047,
+                            "text": "structul"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

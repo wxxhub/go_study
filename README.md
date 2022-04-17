@@ -1,17 +1,13 @@
 # go_study
 
-## mplay
-
-#### 测试library
-```shell
-go test library
-```
-
-#### mplay没写完!!!!
+- [后端学习路线](https://github.com/wxxhub/my_study/blob/master/RD/README.md)
 
 ## 
-> 内存管理
-> 协程， PMG
-> grpc
-> 中间件
-> 反射
+- [GMP](GMP/README.md)
+- [反射](reflect/README.md)
+- [grpc](grpc/README.md)
+  
+## 学习路线
+
+
+
