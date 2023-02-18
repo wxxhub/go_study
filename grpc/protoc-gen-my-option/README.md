@@ -254,4 +254,22 @@ func main() {
 }
 ```
 
+重新安装插件，并生成我们的代码
+```go
+go install .
+protoc -I=./proto --go_out=../ --my-option_out=../ --proto_path=test_proto test_option.proto
+```
+
+在test_proto目录中会生成test_option.my.go,内容如下
+```go
+package test_proto
+
+import "fmt"
+
+func HelloMyOptions() {
+	fmt.Println("Hello MyOptions, MyOptions is ok!")
+}
+
+```
+
 [以上代码地址](https://github.com/wxxhub/go_study/tree/master/grpc/protoc-gen-my-option)

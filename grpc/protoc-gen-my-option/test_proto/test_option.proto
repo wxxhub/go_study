@@ -8,4 +8,4 @@ import "my_option.proto";
 
 // 使用FiledOptions
 
-option (my_option.my_file_option).ok = false;
+option (my_option.my_file_option).ok = true;
