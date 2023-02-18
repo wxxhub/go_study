@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package my_option;
+
+option go_package="protoc-gen-my-option/test_proto";
+
+import "my_option.proto";
+
+// 使用FiledOptions
+
+option (my_option.my_file_option).ok = false;

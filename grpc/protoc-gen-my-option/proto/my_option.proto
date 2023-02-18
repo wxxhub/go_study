@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package my_option;
+
+option go_package="protoc-gen-my-option/proto";
+
+import "google/protobuf/descriptor.proto";
+
+message MyFileOptions {
+  optional bool ok = 1;
+}
+
+// 扩展protobuf的MessageOptions
+extend google.protobuf.FileOptions {
+  optional MyFileOptions my_file_option = 51234; // 取一个自定义不重复值
+}
+
+message MyMessageOptions {
+  optional bool ok = 1;
+}
+
+// 扩展protobuf的MessageOptions
+extend google.protobuf.MessageOptions {
+  optional MyMessageOptions my_message_option = 51234; // 取一个自定义不重复值
+}
